@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
+<html>
+<title>Home -Andy Chang</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Home -Andy Chang</title>
-<meta name="description" itemprop="description" content="Andy Chang Website!" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="description" itemprop="description" content="Andy Chang's website homepage!" />
 <link rel="icon" href="/img/andypfp.png" sizes="32x32" />
 <link rel="icon" href="/img/andypfp.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/img/andypfp.png" />
@@ -14,48 +16,205 @@
 <meta name="twitter:title" content="Andy Chang Website">
 <meta name="twitter:description" content="This is the homepage of Andy Chang!">
 <meta name="twitter:image" content="https://realandychang.us/andypfp.png"> 
-    <div class="page">
-        <div class="bg"></div>
-        <div class="container">
-            <h1 class="title">Andy Chang's Website</h1>
-            <div class>
-<div class="text" style=" text-align:center; "><font style="font-size:22px"><a style= " text-decoration:none; " href="https://realandychang.us/" ><span style="color:#FFFFFF">Home</span></a>&nbsp;&nbsp; <a style=" text-decoration:none; " href="/about" ><span style="color: #FFFFFF">About</span></a>&nbsp;&nbsp; <a style=" text-decoration:none; " href="https://shop.realandychang.us/" ><span style="color:#FFFFFF">Shop</span></a>&nbsp;&nbsp; <a style=" text-decoration:none; " href="/donate" ><span style="color:#FFFFFF">Donate</span></a>&nbsp;&nbsp; <a style= " text-decoration:none; " href="https://blog.realandychang.us/" ><span style="color:#FFFFFF">Blog</span></a></font></div>
+<body id="head">
 
-<style>
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="https://realandychang.us/" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="https://blog.realandychang.us/andychang/" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Profile</a>
+  <a href="https://shop.realandychang.us" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Shop</a>
+  <a href="https://blog.realandychang.us" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Blog</a>
+  <a href="mailto:andyc@realandychang.us" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+  </div>
+ </div>
 
-.button1 {background-color: #000000;} /* Black */
-.button2 {background-color: #0083FF;} /* Blue */
-.button3 {background-color: #D500FF;} /* Purple */
-</style>
-
-<center><button class="button button2" onclick="location.href = 'https://twitter.com/realandychang' ">Twitter</button>
-<button class="button button3" onclick="location.href = 'mailto:andyc@realandychang.us' ">Contact</button>
-  
-<style>
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: pink;
-   color: #FFF;
-   text-align: center;
-}
-</style>
-<div class="footer">
-  <h3>Copyright © 2021 Andy Chang</h3>
-  <div class="text" style=" text-align:center; "><font style="font-size:15px"><a style= " text-decoration:none; " href="https://realandychang.us/privacy-policy" target="_blank"><span style="color:#FFFFFF">Privacy Policy</span></a></p>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="https://blog.realandychang.us/andychang/" target="_blank" class="w3-bar-item w3-button">Profile</a>
+    <a href="https://shop.realandychang.us" target="_blank" class="w3-bar-item w3-button">Shop</a>
+    <a href="https://blog.realandychang.us" target="_blank" class="w3-bar-item w3-button">Blog</a>
+    <a href="mailto:andyc@realandychang.us" target="_blank" class="w3-bar-item w3-button">Contact</a>
+  </div>
 </div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="https://realandychang.us/img/newyear.png" alt="header-banner" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Announcement</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Announcement</h4>
+      <h5>Date: 2/10/2021</h5>
+    </header>
+    <div class="w3-container">
+      <p>Hello!</p>
+      <p>This is new theme. We have updated certain things and introduced some new features, browse around and have a look! Happy Lunar New Year and hope you are having a wonderful time with Andy Chang!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Andy Chang Announcement</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>Welcome to Andy Chang!</h2>
+<p>We are celebrating Lunar New Year! Visit this page: <a href="https://realandychang.us/2021-lunar-new-year/" target="_blank">https://realandychang.us/2021-lunar-new-year/</a></p>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>About</h2>
+<p>I am a student who is currently in 7th grade, I write everything I see or I want to do. Look at the text to see my journey.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://realandychang.us/img/background.jpg" alt="back" style="width:100%">
+  <div class="w3-container">
+  <h3>Blog</h3>
+  <h4>Jan 2021</h4>
+  <p>I started my blog on Jan 2021 and I don't know how to script that time...</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://realandychang.us/img/blogbackground.jpg" alt="back" style="width:100%">
+  <div class="w3-container">
+  <h3>Web</h3>
+  <h4>Jan 2021</h4>
+  <p>I started to get really into scripting, my first website is out...</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://realandychang.us/img/1.jpeg" alt="back" style="width:100%">
+  <div class="w3-container">
+  <h3>Shop</h3>
+  <h4>Feb 2021</h4>
+  <p>I created my first blog system and I decided to let it help more people...</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>Donation</h2>
+    <p>Look at what you will get after your donation</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Small Help</p>
+        </li>
+        <li class="w3-padding-16"><b>1</b> Blog System Tutorial</li>
+        <li class="w3-padding-16"><b>2</b> Email Forwarding</li>
+        <li class="w3-padding-16"><b>1</b> Talk Time</li>
+        <li class="w3-padding-16"><b>Infinite</b> Support Attempts</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 1</h2>
+          <span class="w3-opacity">*You may refund at any time</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large" onclick="location.href = 'https://www.paypal.com/donate?token=iPbzbjjkOg4lxTTwMdqt9B27HWHqIJcpYIXkDV-ugdjG-W6nCqMqvH3IeWzxnTodCFAyVw-PLS7qsGGD' ">Donate</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Medium Help</p>
+        </li>
+        <li class="w3-padding-16">Everything in Small Help +</li>
+        <li class="w3-padding-16"><b>5</b> Email Forwarding</li>
+        <li class="w3-padding-16"><b>5</b> Talk Times</li>
+        <li class="w3-padding-16"><b>Yearly</b> Secret Gift</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 5</h2>
+          <span class="w3-opacity">*You may refund at any time</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large" onclick="location.href = 'https://www.paypal.com/donate?token=iPbzbjjkOg4lxTTwMdqt9B27HWHqIJcpYIXkDV-ugdjG-W6nCqMqvH3IeWzxnTodCFAyVw-PLS7qsGGD' ">Donate</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Mega Help</p>
+        </li>
+        <li class="w3-padding-16">Everything in Medium Help +</li>
+        <li class="w3-padding-16"><b>10</b> Email Forwarding</li>
+        <li class="w3-padding-16"><b>Infinite</b> Talk Times</li>
+        <li class="w3-padding-16"><b>Game</b> early access</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 20</h2>
+          <span class="w3-opacity">*You may refund at any time</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large" onclick="location.href = 'https://www.paypal.com/donate?token=iPbzbjjkOg4lxTTwMdqt9B27HWHqIJcpYIXkDV-ugdjG-W6nCqMqvH3IeWzxnTodCFAyVw-PLS7qsGGD' ">Donate</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Social Media</h4>
+  <a class="w3-button w3-large w3-teal" href="https://twitter.com/realandychang" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://instagram.com/andychangus" title="Instagram"><i class="fa fa-instagram"></i></a>
+  
+  <p>Copyright © 2021 <a href="https://realandychang.us">Andy Chang</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right"> 
+    <a class="w3-button w3-theme" href="#head"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
 </body>
 </html>
