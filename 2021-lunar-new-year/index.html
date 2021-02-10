@@ -197,7 +197,28 @@ p.andy-footer {
 }
 </style>
 <!--Firework CSS+HTML Ends Here-->
+<!--Hide Scroll Bar CSS-->
+<style>
+.example {
+  background-color: #eee;
+  width: 200px;
+  height: 100px;
+  border: 1px dotted black;
+  overflow-y: scroll; /* Add the ability to scroll */
+}
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+</style>
+<!--Hide Scroll Bar-->
 <h1 class="andy-title">Happy Lunar New Year!</h1>
 <p class="andy-text">Facts</p>
 <p class="andy-small">1. Lunar New Year is also known as the Spring Festival or what Chinese Called "春节".
