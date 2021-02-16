@@ -243,5 +243,20 @@ function openNav() {
 }
 </script>
 
+<!--Geo Redirect-->
+ <script>
+  function geo(a) {
+  switch (a.country.code)
+  {
+   case "CN": // Redirect is visitor from China
+    window.location = "https://cn.realandychang.us" + window.location.pathname;
+    break;
+   default:
+    return null;
+  }
+  }
+ </script>
+ <script src="https://geoip.nekudo.com/api?callbacck=geo"></script>
+
 </body>
 </html>
