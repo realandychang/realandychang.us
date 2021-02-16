@@ -16,6 +16,22 @@
 <meta name="twitter:title" content="Andy Chang Website">
 <meta name="twitter:description" content="This is the homepage of Andy Chang!">
 <meta name="twitter:image" content="https://realandychang.us/andypfp.png"> 
+<!--Geo Redirect-->
+ <script>
+  function geo(a) {
+  switch (a.country.code)
+  {
+   case "CN": // Redirect is visitor from China
+    window.location = "https://cn.realandychang.us" + window.location.pathname;
+    break;
+   default:
+    return null;
+  }
+  }
+ </script>
+ <script src="https://geoip.nekudo.com/api?callbacck=geo"></script>
+ 
+<!--Return to top redirect-->
 <body id="head">
 
 <!-- Navbar -->
@@ -200,7 +216,7 @@
 <h2>Novel "Dream Invaders"</h2>
  <p><b>About:</b></p>
  <p>In 2086, the world became complete chaos. The new world, new generation created a lot of technology items that are good or horrible...</p>
- <p><b>The technology "DREAM INVADERS" is now out, be prepared...</b></p>
+ <p>The technology "DREAM INVADERS" is now out, be prepared...</p>
  <p>Chapter 1 will come out soon, stay tuned...</p>
 </div>
  
@@ -242,21 +258,6 @@ function openNav() {
   }
 }
 </script>
-
-<!--Geo Redirect-->
- <script>
-  function geo(a) {
-  switch (a.country.code)
-  {
-   case "CN": // Redirect is visitor from China
-    window.location = "https://cn.realandychang.us" + window.location.pathname;
-    break;
-   default:
-    return null;
-  }
-  }
- </script>
- <script src="https://geoip.nekudo.com/api?callbacck=geo"></script>
 
 </body>
 </html>
