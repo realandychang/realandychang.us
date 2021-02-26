@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <title>Home -Andy Chang</title>
 <meta charset="UTF-8">
@@ -160,45 +160,259 @@ html {
 <img src="https://cdn.jsdelivr.net/gh/realandychang/realandychang.us@main/img/virus.png" height="100px"; width="98px"></a>
 </div>
 
-<!-- Footer -->
-<footer class="ac-container ac-padding-32 ac-theme-d1">
-<p id="fn1">1. We will only take your final submission only, all your previous submission will not count unless you mention it specifically.</p>
-<hr>
-<footer class="ac-container ac-padding-32 ac-theme-d1">
-  <h4><b>Product</b></h4>
-  <h4><a class="d1" href="https://realandychang.us/andyuscss/">Andyus CSS</a></h4>
-  <h4><a class="d1" href="https://realandychang.us/membership/">Memberships</a></h4>
-  <h4><a class="d1" href="https://realandychang.us/story/di/">Dream Invader</a></h4>
-  <h4><b>Blog Account</b></h4>
-  <h4><a class="d1" href="mailto:andyc@realandychang.us">Account Support</a></h4>
-  <h4><a class="d1" href="https://www.youtube.com/watch?v=ybRSKUXs4-A&t=24s&ab_channel=AndyChang">Account Tutorial</a></h4>
-  <h4><b>Justice and helps</b></h4>
-  <h4><a class="d1" href="https://realandychang.us/racial-equity/">Racial Equity</a></h4>
-  <h4><a class="d1" href="https://realandychang.us/jobs/">Job Oppurtunities</a></h4>
-  <h4><a class="d1" href="mailto:andyc@realandychang.us">Help resource</a>
-  <h4><b>Coronavirus&nbsp;(Covid-19)</b></h4>
-  <h4><a class="d1" href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">Covid-19 CDC</a></h4>
-  <h4><a class="d1" href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/forum/resources.html" target="_blank">Covid-19 Resources</a></h4>
-  <h4><a class="d1" href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html" target="_blank">Covid-19 Symptom</a></h4>
-  <h4><a class="d1" href="https://covid19.apple.com/screening/" target="_blank">Covid-19 Screening</a></h4>
-  <h4>
-  <hr>
-<footer class="ac-container ac-padding-32 ac-theme-d1 ac-center">
-  <h4>Find us</h4>
-  <a class="ac-button ac-large ac-blue" href="https://twitter.com/realandychang" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-  <a class="ac-button ac-large ac-purple" href="https://instagram.com/andychangus" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-  <a class="ac-button ac-large ac-lime" href="mailto:andyc@realandychang.us" title="Email" target="_blank"><i class="fa fa-envelope"></i></a>
-  
- <p>Copyright © 2021 <a href="https://realandychang.us">Andy Chang</a></p>
- &nbsp;&nbsp;
- <p><a href="https://realandychang.us/term-of-service/" target="_blank">Terms&nbsp;of&nbsp;Service</a>&nbsp;&nbsp;<a href="https://realandychang.us/privacy-policy/" target="_blank">Privacy&nbsp;Policy</a></p>
+<!--Footer CSS-->
+<style>
+/* HTML Set up */
+footer {
+  background: #000;
+  color: #fff;
+  margin: 0;
+  @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+  font-family: "Open Sans", sans-serif;
+}
+footer .centered {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .centered .footer-logo {
+  width: 20%;
+}
+footer .centered .footer-logo img.logo {
+  padding: 30px 20px 10px 20px;
+  max-width: 100%;
+}
+footer .centered .footer-contact {
+  width: 20%;
+}
+footer .centered .footer-navigation {
+  width: 60%;
+}
+footer .centered .footer-navigation .footer-links-holder {
+  width: 33.33333%;
+  position: relative;
+  float: left;
+  margin: 0;
+}
+footer .centered .footer-navigation .footer-links-holder .footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+footer .bottom-bar {
+  position: relative;
+  text-align: center;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  background: #000;
+  padding: 15px 0;
+}
 
-  <div style="position:relative;bottom:1px;z-index:1;" class="ac-tooltip ac-right"> 
-    <a class="ac-button ac-theme" href="#head"><span class="ac-xlarge">
-    <i class="fa fa-chevron-circle-up"></i></span></a>
+/* Responsive Tablet Sizes */
+@media only screen and (max-width: 749px) {
+  footer .centered {
+    flex-wrap: wrap;
+  }
+  footer .centered .footer-logo {
+    max-width: 250px;
+    width: 50%;
+  }
+  footer .centered .footer-contact {
+    width: 50%;
+    padding: 0 20px;
+  }
+  footer .centered .footer-navigation {
+    width: 100%;
+  }
+  footer .centered .footer-navigation .footer-links-holder {
+    padding: 0 20px;
+  }
+}
+/* Responsive Mobile Sizes */
+@media only screen and (max-width: 500px) {
+  footer .centered .footer-logo {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .centered .footer-contact {
+    width: 100%;
+  }
+  footer .centered .footer-navigation .footer-links-holder {
+    width: 100%;
+    padding: 0;
+  }
+  footer .centered .footer-navigation .footer-links-holder h3 {
+    margin: 0;
+    padding: 10px 20px;
+    border-top: #000 1px solid;
+    cursor: pointer;
+    /* Down Arrows */
+  }
+  footer .centered .footer-navigation .footer-links-holder h3::after {
+    float: right;
+    margin-right: 10px;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 7px;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    -webkit-transition: transform 0.5s;
+    transition: transform 0.5s;
+  }
+  footer .centered .footer-navigation .footer-links-holder .footer-links {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  footer .centered .footer-navigation .footer-links-holder.active h3::after {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  footer .centered .footer-navigation .footer-links-holder.active .footer-links {
+    max-height: 10000px;
+  }
+}
+/* Social Icons */
+.social {
+  text-align: center;
+}
+.social a {
+  display: inline-block;
+  padding: 7px;
+  width: 35px;
+  height: 35px;
+  margin: 0 2px;
+  background: #fff;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.social a:hover {
+  text-decoration: underline;
+  color:#FFF;
+}
+.social a.linkedin {
+  padding: 4px;
+}
+.social a svg .face, .social a svg .twit, .social a svg .link {
+  fill: #000;
+}
+
+/* Typography */
+footer h3 {
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 0;
+}
+footer p, footer li {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 10px 0;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color 0.5s, background 0.5s;
+  transition: color 0.5s, background 0.5s;
+}
+footer a:hover {
+  color: #65c2ed;
+}
+
+/* Misc CSS */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+</style>
+
+<!--JS CONFIG-->
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+<!--Footer-->
+<footer class="ac-container ac-padding-32 ac-theme-d1 ac-center">
+  <h4>Social Media</h4>
+  <hr>
+  <footer>
+  <div class="centered clearfix">
+    <div class="footer-logo">
+      <div class="social">
+        
+      </div>
+    </div>
+    <div class="footer-navigation">
+      <div class="footer-links-holder">
+        <h3><b>Section 1</b></h3>
+        <ul class="footer-links">
+          <li><a href="">Page Title 1</a></li>
+          <li><a href="">Page Title 2</a></li>
+          <li><a href="">Page Title 3</a></li>
+          <li><a href="">Page Title 4</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-holder">
+        <h3><a href="">Section 2</a></h3>
+        <ul class="footer-links">
+          <li><a href="">Page Title 1</a></li>
+          <li><a href="">Page Title 2</a></li>
+          <li><a href="">Page Title 3</a></li>
+          <li><a href="">Page Title 4</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-holder">
+        <h3><a href="">Section 3</a></h3>
+        <ul class="footer-links">
+          <li><a href="">Page Title 1</a></li>
+          <li><a href="">Page Title 2</a></li>
+          <li><a href="">Page Title 3</a></li>
+          <li><a href="">Page Title 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar">
+      © 2021 Andy Chang Team&nbsp;|&nbsp;<a href="https://realandychang.us/privacy-policy/" class="d1"><span style="color:#FFF">Privacy&nbsp;Policy</a>&nbsp;|&nbsp;<a href="https://realandychang.us/terms-of-service/" class="d1"><span style="color:#FFF">Terms&nbsp;of&nbsp;Service</span></a>
   </div>
 </footer>
 
+<!--Navigation Config-->
 <script>
 function ac_open() {
   var x = document.getElementById("mySidebar");
@@ -221,6 +435,7 @@ function openNav() {
 }
 </script>
 
+<!--Link Config-->
 <style>
 a.d:link {
   text-decoration: none;
