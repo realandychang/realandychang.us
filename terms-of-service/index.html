@@ -27,7 +27,7 @@
   <!-- Mobile + Minimized Browser -->
   <div id="navDemo" class="ac-bar-block ac-theme-d2 ac-hide ac-hide-large ac-hide-medium">
     <a href="https://realandychang.us/about/" target="_self" class="ac-bar-item ac-button">About</a>
-    <a href="https://realandychang.us/memberhsip/" target="_self" class="ac-bar-item ac-button">Membership</a>
+    <a href="https://realandychang.us/membership/" target="_self" class="ac-bar-item ac-button">Membership</a>
     <a href="https://blog.realandychang.us" target="_self" class="ac-bar-item ac-button">Blog</a>
     <a href="mailto:andyc@realandychang.us" target="_blank" class="ac-bar-item ac-button">Contact</a>
   </div>
@@ -82,4 +82,27 @@
 <h2>9. Governing Law</h2>
 
 <p>Any claim related to Andy Chang's Website shall be governed by the laws of us without regards to its conflict of law provisions.</p>
+ 
+<!--Navigation Config-->
+<script>
+function ac_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+function ac_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("ac-show") == -1) {
+    x.className += " ac-show";
+  } else { 
+    x.className = x.className.replace(" ac-show", "");
+  }
+}
+</script>
 </html>
