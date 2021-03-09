@@ -1,190 +1,258 @@
 <!DOCTYPE html>
-
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>404 Error -Andy Chang</title>
+<html>
+<title>Page Not Found (404 Error) -Andy Chang</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/realandychang/realandychang.us@main/css/andyus/v1.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/realandychang/realandychang.us@main/css/andyus/v1-extra.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+<meta name="description" itemprop="description" content="Andy Chang's website homepage!" />
 <link rel="icon" href="/img/logo-trans.png" sizes="32x32" />
 <link rel="icon" href="/img/logo-trans.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/img/logo-trans.png" />
 <meta name="msapplication-TileImage" content="/img/logo-trans.png" />
-    </head>
-	
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About -Andy Chang">
+<meta name="twitter:description" content="This is the about page of Andy Chang!">
+<meta name="twitter:image" content="https://realandychang.us/img/logo.png"> 
+ 
+<!--Return to top redirect-->
+<body id="head">
+
+<!--Return to top smooth-->
+ <style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
+<!-- Navbar -->
+<div class="ac-top">
+ <div class="ac-bar ac-theme-d2">
+  <a class="ac-bar-item ac-button ac-hide-medium ac-hide-large ac-left ac-hover-white ac-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="https://realandychang.us/" class="ac-bar-item" target="_self" style="text-decoration:none">A</a>
+  <a href="https://realandychang.us/about/" target="_self" class="ac-bar-item ac-button ac-hide-small ac-hover-white">About</a>
+  <a href="https://realandychang.us/membership/" target="_self" class="ac-bar-item ac-button ac-hide-small ac-hover-white">Membership</a>
+  <a href="https://blog.realandychang.us" target="_self" class="ac-bar-item ac-button ac-hide-small ac-hover-white">Blog</a>
+  <a href="mailto:andyc@realandychang.us" target="_blank" class="ac-bar-item ac-button ac-hide-small ac-hover-white">Contact</a>
+  <div class="ac-dropdown-hover ac-right">
+
+<!--EN LANG-->
+      <button class="ac-button"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAhFBMVEUAAADvjYbwfHSKYpnt7/GKYpp4hcrr7/HwkYnvq6WAd7Xvx8aHaqShaJDLsMOic5vykYzyj4r0Qzbs7/E/UbXvmJPybmTuxMJ7h8zBp77///+HktFvfMfb3/FLW7nz9Pu3vuNjccNsTZSrs99qeMSTndXn6fbP1O3O0+xrXKbNrr9rbbgEiDpcAAAAEnRSTlMAcMDgfuDAgbCgzI7Y2J6UPDtbvABhAAAAz0lEQVRIx+2TSxKCMBBEBQEB/zBgTEIUERS9//1UilUkMRW0KKy8Re/epqdnYjD8L+upiKUtwWpkF0ScIgn2V2QCwAelSnKYZ4cjcFFWVQn3nYR5I3uQYQRcMIwZnGMJTisjRIELRoiiLEBFdqGzMVYqtn3BV8YFfdamJhe44KKpTUFevI5K3oKgvE4l+P0L8wQLU5NFC1ORQ+HC6kRC0LYtWFivl/y5vNqLuH1+yVmshTOwbEda2APLfqqFP+ZTBYkWwZjvvLG02E4MBkMXD5MAkJrGRHOLAAAAAElFTkSuQmCC" alt="english-lang" width="20" height="20" data-v-fcffb36c="" data-v-3d7c0d79=""></button>
+
+<!--JA LANG-->
+      <div class="ac-dropdown-content ac-bar-block ac-card-4" style="right:0">
+        <a href="https://jp.realandychang.us" class="ac-bar-item ac-button" target="_self"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8BAMAAADI0sRBAAAAJ1BMVEUAAADs7/Dr7/Hs7/Ls7/HVAADns7TWDg/r4OHnwsPjlZbeWVrbOzyRGGwAAAAABHRSTlMAv4BgC6AmpAAAAJBJREFUOMtjGAW0AIaCOIEwUFrFBSdwGkLSbRl4pN22h4ZWp+CS9jwaCgQxU3BILw8Fgyrs0l6hULAEq/R0mHQlVumjMOkYbNJuoXCQgkXaGyG9BYu0O0K6BIt0K0I6Aot0KkI6jIA0YcMJO42wxwgHC2agkhMliAglIzkgEhPJSRGRkAdtHiNNmlDRMwpoAADdAyGYeDi9yQAAAABJRU5ErkJggg==" alt="japanese-lang" width="20" height="20" data-v-fcffb36c="" data-v-3d7c0d79=""> 日本語</button>
+
+<!--ZH LANG-->
+        <a href="https://cn.realandychang.us" class="ac-bar-item ac-button" target="_self"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAOVBMVEUAAAD/PAD/PAD/PQD/PQD/6zv/SAP/Uwf/wCz/kx3/qCT/4Df/cxL/aA7/1TP/tSj/fxb/XQv/iRpQIAmlAAAABHRSTlMAv4BgC6AmpAAAALNJREFUSMft1rsOwyAMBdA2qR/lESD//7EttAphqGTcJYPvwoCODFcM3CyWS2e9q7I2vDxUWX5h/Adn1OO4MaoxJjc/OR9XxmmMMBicwgHC0BrNYAdubI1kOD7f8eDrEr+n5iSdvHv4xO+9NfGxiZtl0j3PhpVvO1R77jugHDtIlE59R3YkxluuvW1917O8sNKWckwjLCIsiRwH1ODelQL3rpS4d6UtzLBhw3qs/9BYLFfOC1AUIa4gRIvdAAAAAElFTkSuQmCC" alt="chinese-lang" width="20" height="20" data-v-fcffb36c="" data-v-3d7c0d79=""> 中文</a>
+      </div>
+    </div>
+    <div class="ac-dropdown-hover ac-hide-small">
+  </div>
+ </div>
+
+  <!-- Mobile + Minimized Browser -->
+  <div id="navDemo" class="ac-bar-block ac-theme-d2 ac-hide ac-hide-large ac-hide-medium">
+    <a href="https://realandychang.us/about/" target="_self" class="ac-bar-item ac-button">About</a>
+    <a href="https://realandychang.us/membership/" target="_self" class="ac-bar-item ac-button">Membership</a>
+    <a href="https://blog.realandychang.us" target="_self" class="ac-bar-item ac-button">Blog</a>
+    <a href="mailto:andyc@realandychang.us" target="_blank" class="ac-bar-item ac-button">Contact</a>
+  </div>
+</div>
+
+<div class="ac-container ac-theme-l5 ac-padding-64 ac-center">
+<h1>Can't find the page you are looking for.</h1>
+<p>Error Code: 404 (Not Found)</p>
+<p>Solution(s): Check if there's a typo in URL.</p>
+<p><a href="mailto:andyc@realandychang.us" target="_blank" class="d"><i class="fa fa-envelope">&nbsp;</i><span style="color:#0083FF">Contact</span></a></p>
+</div>
+<!--CSS Footer-->
 <style>
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
-/*Variables*/
-.left-section .inner-content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+/* HTML Set up */
+footer {
+  background: #000;
+  color: #FFFFFF;
+  margin: 0;
+  @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+  font-family: "Open Sans", sans-serif;
 }
-
-* {
-  box-sizing: border-box;
+footer .centered {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
-
-html, body {
+footer .centered .footer-logo {
+  width: 20%;
+}
+footer .centered .footer-logo img.logo {
+  padding: 30px 20px 10px 20px;
+  max-width: 100%;
+}
+footer .centered .footer-contact {
+  width: 20%;
+}
+footer .centered .footer-navigation {
+  width: 60%;
+}
+footer .centered .footer-navigation .footer-links-holder {
+  width: 33.33333%;
+  position: relative;
+  float: left;
+  margin: 0;
+}
+footer .centered .footer-navigation .footer-links-holder .footer-links {
   margin: 0;
   padding: 0;
+  list-style: none;
+  -webkit-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+footer .bottom-bar {
+  position: relative;
+  text-align: center;
+  font-size: 0.8em;
+  background: #000;
+  padding: 15px 0;
+}
+
+/* Responsive Tablet Sizes */
+@media only screen and (max-width: 749px) {
+  footer .centered {
+    flex-wrap: wrap;
+  }
+  footer .centered .footer-logo {
+    max-width: 250px;
+    width: 50%;
+  }
+  footer .centered .footer-contact {
+    width: 50%;
+    padding: 0 20px;
+  }
+  footer .centered .footer-navigation {
+    width: 100%;
+  }
+  footer .centered .footer-navigation .footer-links-holder {
+    padding: 0 20px;
+  }
+}
+/* Responsive Mobile Sizes */
+@media only screen and (max-width: 500px) {
+  footer .centered .footer-logo {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .centered .footer-contact {
+    width: 100%;
+  }
+  footer .centered .footer-navigation .footer-links-holder {
+    width: 100%;
+    padding: 0;
+  }
+  footer .centered .footer-navigation .footer-links-holder h3 {
+    margin: 0;
+    padding: 10px 20px;
+    border-top: #000 1px solid;
+    cursor: pointer;
+    /* Down Arrows */
+  }
+  footer .centered .footer-navigation .footer-links-holder h3::after {
+    float: right;
+    margin-right: 10px;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 7px;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    -webkit-transition: transform 0.5s;
+    transition: transform 0.5s;
+  }
+  footer .centered .footer-navigation .footer-links-holder .footer-links {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  footer .centered .footer-navigation .footer-links-holder.active h3::after {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  footer .centered .footer-navigation .footer-links-holder.active .footer-links {
+    max-height: 10000px;
+  }
+}
+/* Social Icons */
+.social {
+  text-align: center;
+}
+.social a {
+  display: inline-block;
+  padding: 7px;
+  width: 35px;
+  height: 35px;
+  margin: 0 2px;
+  background: #fff;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.social a:hover {
+  background: #65c2ed;
+}
+.social a.linkedin {
+  padding: 4px;
+}
+.social a svg .face, .social a svg .twit, .social a svg .link {
+  fill: #000;
+}
+
+/* Typography */
+footer h3 {
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+footer p, footer li {
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 10px 0;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color 0.5s, background 0.5s;
+  transition: color 0.5s, background 0.5s;
+}
+footer a:hover {
+  color: #65c2ed;
+}
+
+/* Misc CSS */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  clear: both;
 }
 
 body {
-  font-family: "Fira Sans", sans-serif;
-  color: #f5f6fa;
+  margin: 0;
 }
 
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(#0C0E10, #446182);
-}
-.background .ground {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 25vh;
-  background: #0C0E10;
-}
-@media (max-width: 770px) {
-  .background .ground {
-    height: 0vh;
-  }
-}
-
-.container {
-  position: relative;
-  margin: 0 auto;
-  width: 85%;
-  height: 100vh;
-  padding-bottom: 25vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-@media (max-width: 770px) {
-  .container {
-    flex-direction: column;
-    padding-bottom: 0vh;
-  }
-}
-
-.left-section, .right-section {
-  position: relative;
-}
-
-.left-section {
-  width: 40%;
-}
-@media (max-width: 770px) {
-  .left-section {
-    width: 100%;
-    height: 40%;
-    position: absolute;
-    top: 0;
-  }
-}
-@media (max-width: 770px) {
-  .left-section .inner-content {
-    position: relative;
-    padding: 1rem 0;
-  }
-}
-
-.heading {
-  text-align: center;
-  font-size: 9em;
-  line-height: 1.3em;
-  margin: 2rem 0 0.5rem 0;
-  padding: 0;
-  text-shadow: 0 0 1rem #fefefe;
-}
-@media (max-width: 770px) {
-  .heading {
-    font-size: 7em;
-    line-height: 1.15;
-    margin: 0;
-  }
-}
-
-.subheading {
-  text-align: center;
-  max-width: 480px;
-  font-size: 1.5em;
-  line-height: 1.15em;
-  padding: 0 1rem;
-  margin: 0 auto;
-}
-@media (max-width: 770px) {
-  .subheading {
-    font-size: 1.3em;
-    line-height: 1.15;
-    max-width: 100%;
-  }
-}
-
-.right-section {
-  width: 50%;
-}
-@media (max-width: 770px) {
-  .right-section {
-    width: 100%;
-    height: 60%;
-    position: absolute;
-    bottom: 0;
-  }
-}
-
-.svgimg {
-  position: absolute;
-  bottom: 0;
-  padding-top: 10vh;
-  padding-left: 1vh;
-  max-width: 100%;
-  max-height: 100%;
-}
-@media (max-width: 770px) {
-  .svgimg {
-    padding: 0;
-  }
-}
-.svgimg .bench-legs {
-  fill: #0C0E10;
-}
-.svgimg .top-bench, .svgimg .bottom-bench {
-  stroke: #0C0E10;
-  stroke-width: 1px;
-  fill: #5B3E2B;
-}
-.svgimg .bottom-bench path:nth-child(1) {
-  fill: #432d20;
-}
-.svgimg .lamp-details {
-  fill: #202425;
-}
-.svgimg .lamp-accent {
-  fill: #2c3133;
-}
-.svgimg .lamp-bottom {
-  fill: linear-gradient(#202425, #0C0E10);
-}
-.svgimg .lamp-light {
-  fill: #EFEFEF;
-}
-
-@keyframes glow {
-  0% {
-    text-shadow: 0 0 1rem #fefefe;
-  }
-  50% {
-    text-shadow: 0 0 1.85rem #ededed;
-  }
-  100% {
-    text-shadow: 0 0 1rem #fefefe;
-  }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 </style>
 
@@ -200,69 +268,137 @@ body {
   }
 </script>
 
-
-</head>
-
+<!--Footer-->
 <body translate="no" >
-  <div class="background">
-	<div class="ground"></div>
-</div>
-<div class="container">
-	<div class="left-section">
-		<div class="inner-content">
-			<h1 class="heading">404</h1>
-			<p class="subheading">This page does not exist.</p>
-			<p class="subheading"><a style=" text-decoration:none" href="https://realandychang.us/"><span style="color:#0083FF">Return</a></span></p>
-		</div>
-	</div>
-	<div class="right-section">
-		<svg class="svgimg" xmlns="http://www.w3.org/2000/svg" viewBox="51.5 -15.288 385 505.565">
-        <g class="bench-legs">
-          <path d="M202.778,391.666h11.111v98.611h-11.111V391.666z M370.833,390.277h11.111v100h-11.111V390.277z M183.333,456.944h11.111
-          v33.333h-11.111V456.944z M393.056,456.944h11.111v33.333h-11.111V456.944z" />
-        </g>
-        <g class="top-bench">
-          <path d="M396.527,397.917c0,1.534-1.243,2.777-2.777,2.777H190.972c-1.534,0-2.778-1.243-2.778-2.777v-8.333
-          c0-1.535,1.244-2.778,2.778-2.778H393.75c1.534,0,2.777,1.243,2.777,2.778V397.917z M400.694,414.583
-          c0,1.534-1.243,2.778-2.777,2.778H188.194c-1.534,0-2.778-1.244-2.778-2.778v-8.333c0-1.534,1.244-2.777,2.778-2.777h209.723
-          c1.534,0,2.777,1.243,2.777,2.777V414.583z M403.473,431.25c0,1.534-1.244,2.777-2.778,2.777H184.028
-          c-1.534,0-2.778-1.243-2.778-2.777v-8.333c0-1.534,1.244-2.778,2.778-2.778h216.667c1.534,0,2.778,1.244,2.778,2.778V431.25z"
-          />
-        </g>
-        <g class="bottom-bench">
-          <path d="M417.361,459.027c0,0.769-1.244,1.39-2.778,1.39H170.139c-1.533,0-2.777-0.621-2.777-1.39v-4.86
-          c0-0.769,1.244-0.694,2.777-0.694h244.444c1.534,0,2.778-0.074,2.778,0.694V459.027z" />
-          <path d="M185.417,443.75H400c0,0,18.143,9.721,17.361,10.417l-250-0.696C167.303,451.65,185.417,443.75,185.417,443.75z" />
-        </g>
-        <g id="lamp">
-          <path class="lamp-details" d="M125.694,421.997c0,1.257-0.73,3.697-1.633,3.697H113.44c-0.903,0-1.633-2.44-1.633-3.697V84.917
-          c0-1.257,0.73-2.278,1.633-2.278h10.621c0.903,0,1.633,1.02,1.633,2.278V421.997z"
-          />
-          <path class="lamp-accent" d="M128.472,93.75c0,1.534-1.244,2.778-2.778,2.778h-13.889c-1.534,0-2.778-1.244-2.778-2.778V79.861
-          c0-1.534,1.244-2.778,2.778-2.778h13.889c1.534,0,2.778,1.244,2.778,2.778V93.75z" />
-          
-          <circle class="lamp-light" cx="119.676" cy="44.22" r="40.51" />
-          <path class="lamp-details" d="M149.306,71.528c0,3.242-13.37,13.889-29.861,13.889S89.583,75.232,89.583,71.528c0-4.166,13.369-13.889,29.861-13.889
-          S149.306,67.362,149.306,71.528z"/>
-          <radialGradient class="light-gradient" id="SVGID_1_" cx="119.676" cy="44.22" r="65" gradientUnits="userSpaceOnUse">
-            <stop  offset="0%" style="stop-color:#FFFFFF; stop-opacity: 1"/>
-            <stop  offset="50%" style="stop-color:#EDEDED; stop-opacity: 0.5">
-              <animate attributeName="stop-opacity" values="0.0; 0.5; 0.0" dur="5000ms" repeatCount="indefinite"></animate>
-            </stop>
-            <stop  offset="100%" style="stop-color:#EDEDED; stop-opacity: 0"/>
-          </radialGradient>
-          <circle class="lamp-light__glow" fill="url(#SVGID_1_)" cx="119.676" cy="44.22" r="65"/>
-          <path class="lamp-bottom" d="M135.417,487.781c0,1.378-1.244,2.496-2.778,2.496H106.25c-1.534,0-2.778-1.118-2.778-2.496v-74.869
-          c0-1.378,1.244-2.495,2.778-2.495h26.389c1.534,0,2.778,1.117,2.778,2.495V487.781z" />
-        </g>
-      </svg>
-	</div>
-</div>
-  
-  
-  
-  
+<footer>
+  <div class="centered clearfix">
+    <div class="footer-logo">
+    <br>
+      <div class="social">
+        <a href="https://www.instagram.com/andychangus" class="instagram" target="_blank">
+          <svg viewBox="0 0 25 25"><g><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" /></svg>
+        </a>
+        <a href="https://twitter.com/andychangteam" class="twitter" target="_blank">
+          <svg viewBox="0 0 33 33"><g><path d="M 32,6.076c-1.177,0.522-2.443,0.875-3.771,1.034c 1.355-0.813, 2.396-2.099, 2.887-3.632 c-1.269,0.752-2.674,1.299-4.169,1.593c-1.198-1.276-2.904-2.073-4.792-2.073c-3.626,0-6.565,2.939-6.565,6.565 c0,0.515, 0.058,1.016, 0.17,1.496c-5.456-0.274-10.294-2.888-13.532-6.86c-0.565,0.97-0.889,2.097-0.889,3.301 c0,2.278, 1.159,4.287, 2.921,5.465c-1.076-0.034-2.088-0.329-2.974-0.821c-0.001,0.027-0.001,0.055-0.001,0.083 c0,3.181, 2.263,5.834, 5.266,6.438c-0.551,0.15-1.131,0.23-1.73,0.23c-0.423,0-0.834-0.041-1.235-0.118 c 0.836,2.608, 3.26,4.506, 6.133,4.559c-2.247,1.761-5.078,2.81-8.154,2.81c-0.53,0-1.052-0.031-1.566-0.092 c 2.905,1.863, 6.356,2.95, 10.064,2.95c 12.076,0, 18.679-10.004, 18.679-18.68c0-0.285-0.006-0.568-0.019-0.849 C 30.007,8.548, 31.12,7.392, 32,6.076z"></path></g></svg>
+        </a>
+        <a href="https://www.youtube.com/channel/UCuz7oMx505cN5djkahv_AKA" class="youtube" target="_blank">
+          <svg viewBox="0 0 25 26"><g><path d="M10,16.5V7.5L16,12M20,4.4C19.4,4.2 15.7,4 12,4C8.3,4 4.6,4.19 4,4.38C2.44,4.9 2,8.4 2,12C2,15.59 2.44,19.1 4,19.61C4.6,19.81 8.3,20 12,20C15.7,20 19.4,19.81 20,19.61C21.56,19.1 22,15.59 22,12C22,8.4 21.56,4.91 20,4.4Z"></path></g></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-contact">
+       <h3><b>Contact</b></h3>
+       <p><a href="mailto:andyc@realandychang.us" class="d1">Email</a>&nbsp;<a href="mailto:andyc@realandychang.us"><i class="fa fa-envelope"></i></a></p>
+       <p><a href="tel:909-656-6293" class="d1">Call</a>&nbsp;<a href="tel:909-656-6293"><i class="fa fa-phone"></i></a></p>
+       <p><a href="https://realandychang.us/ac/" target="_self" class="d1">Andy Chang</a></p>
+    </div>
+    <div class="footer-navigation">
+      <div class="footer-links-holder">
+        <h3><b>Products</b></h3>
+        <ul class="footer-links">
+          <li><a href="https://realandychang.us/andyuscss/" class="d1" target="_self">Andyus CSS</a></li>
+          <li><a href="https://realandychang.us/membership/" class="d1" target="_self">Membership</a></li>
+          <li><a href="https://realandychang.us/story/di/" class="d1" target="_self">Novel DI</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-holder">
+        <h3><b>Blog</b></h3>
+        <ul class="footer-links">
+          <li><a href="https://blog.realandychang.us/blog-06" class="d1" target="_target">Join</a></li>
+          <li><a href="mailto:reset@andyurl.top" class="d1">Account Reset</a></li>
+          <li><a href="https://blog.realandychang.us/books/" class="d1" target="_blank">Books</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-holder">
+        <h3><b>Layout</b></h3>
+        <ul class="footer-links">
+          <li><a href="https://old.realandychang.us/" class="d1" target="_self">Old Version</a></li>
+          <li><a href="https://realandychang.us/night-dark/" class="d1" target="_self">Dark Mode</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar">
+      Copyright © 2021 Andy Chang Team | <a href="https://realandychang.us/privacy-policy" target="_blank" class="d1">Privacy Policy</a> | <a href="https://realandychang.us/terms-of-service" target="_blank" class="d1">Terms of Service</a>
+  </div>
+</footer>
 
-</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script id="rendered-js" >
+$(function () {
+  $('.footer-links-holder h3').click(function () {
+    $(this).parent().toggleClass('active');
+  });
+});
+    </script>
 
-</html>
+<!--Navigation Config-->
+<script>
+function ac_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+function ac_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("ac-show") == -1) {
+    x.className += " ac-show";
+  } else { 
+    x.className = x.className.replace(" ac-show", "");
+  }
+}
+</script>
+
+<!--Link Config-->
+<style>
+a.d:link {
+  text-decoration: none;
+}
+
+a.d:visited {
+  text-decoration: none;
+}
+
+a.d:hover {
+  text-decoration: underline;
+  color: #0083FF;
+}
+
+a.d:active {
+  text-decoration: underline;
+  color:#0083FF;
+}
+
+a.d1:link {
+  text-decoration:none;
+}
+
+a.d1:visited {
+  text-decoration: none;
+}
+
+a.d1:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a.d1:active {
+  text-decoration: underline;
+  color:white;
+}
+
+p.explain {
+	color:#808080
+    }
+    
+h4.ac-text-footer {
+	display:flex;
+    }
+    
+</style>
